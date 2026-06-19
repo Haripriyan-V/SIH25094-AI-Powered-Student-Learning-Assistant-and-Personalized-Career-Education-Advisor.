@@ -14,7 +14,7 @@ To empower students with intelligent educational support and personalized career
 
 ---
 
-## ✨ Key Features
+## ✨ Key Features:
 
 ### 📚 Personalized Learning Recommendations
 - Customized study plans based on student interests and performance.
@@ -51,7 +51,58 @@ To empower students with intelligent educational support and personalized career
 
 ## 🏗️ System Architecture
 
-Student → Frontend (React.js) → Backend (Flask/FastAPI) → AI Engine & Database → Recommendations & Insights
+```text
+                    ┌─────────────────────────┐
+                    │        Student          │
+                    │         User            │
+                    └───────────┬─────────────┘
+                                │
+                                ▼
+               ┌───────────────────────────┐
+               │      React.js Frontend    │
+               │  (Web Interface / UI)     │
+               └───────────┬───────────────┘
+                           │
+                           ▼
+               ┌───────────────────────────┐
+               │     Flask / FastAPI       │
+               │        Backend API        │
+               └───────────┬───────────────┘
+                           │
+         ┌─────────────────┼─────────────────┐
+         │                 │                 │
+         ▼                 ▼                 ▼
+ ┌───────────────┐ ┌───────────────┐ ┌───────────────┐
+ │ AI Chatbot &  │ │ Recommendation│ │ Skill Gap    │
+ │ NLP Engine    │ │ Engine        │ │ Analyzer     │
+ └───────┬───────┘ └───────┬───────┘ └───────┬───────┘
+         │                 │                 │
+         └─────────────────┼─────────────────┘
+                           │
+                           ▼
+               ┌───────────────────────────┐
+               │      AI/ML Models         │
+               │ (Scikit-learn, NLP, GenAI)│
+               └───────────┬───────────────┘
+                           │
+                           ▼
+               ┌───────────────────────────┐
+               │      Database Layer       │
+               │     MySQL / MongoDB       │
+               └───────────┬───────────────┘
+                           │
+                           ▼
+      ┌────────────────────────────────────────────┐
+      │                Output Layer                │
+      ├────────────────────────────────────────────┤
+      │ • Learning Recommendations                 │
+      │ • Career Guidance                          │
+      │ • Course & College Suggestions             │
+      │ • Scholarship Recommendations              │
+      │ • Progress Tracking Dashboard              │
+      │ • Adaptive Learning Paths                  │
+      └────────────────────────────────────────────┘
+```
 
 ---
 
