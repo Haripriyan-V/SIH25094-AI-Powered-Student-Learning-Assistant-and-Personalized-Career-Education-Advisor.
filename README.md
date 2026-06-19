@@ -1,0 +1,2 @@
+# SIH25094-AI-Powered-Student-Learning-Assistant-and-Personalized-Career-Education-Advisor.
+ The AI-Powered Student Learning Assistant and Personalized Career &amp; Education Advisor is an intelligent platform designed to help students make informed academic and career decisions. Many students face difficulties in choosing the right stream, degree program, college, or career path due to limited awareness and guidance.
