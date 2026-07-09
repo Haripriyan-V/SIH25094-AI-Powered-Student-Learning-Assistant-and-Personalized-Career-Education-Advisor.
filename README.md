@@ -100,7 +100,7 @@ frontend/
     │               │               │
     └───────────────┼───────────────┘
                     │
-                 SQLite/MySQL
+                  MySQL
 ```
 
 ---
@@ -188,18 +188,6 @@ npm run dev
 - AI Mock Interview
 - Emotion Detection
 - Multilingual Support
-
----
-
-# Developed For
-
-Smart India Hackathon 2025
-
-Problem ID: SIH25094
-
-Title:
-
-AI-Powered Student Learning Assistant and Personalized Career Education Advisor
 
 ---
 
