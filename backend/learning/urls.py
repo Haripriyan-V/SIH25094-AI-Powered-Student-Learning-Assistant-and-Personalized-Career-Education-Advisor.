@@ -1,0 +1,19 @@
+from django.urls import path, include
+from rest_framework.routers import DefaultRouter
+from . import views
+
+router = DefaultRouter()
+router.register(r'subjects', views.SubjectViewSet, basename='subject')
+router.register(r'courses', views.CourseViewSet, basename='course')
+router.register(r'resources', views.LearningResourceViewSet, basename='learning-resource')
+router.register(r'quizzes', views.QuizViewSet, basename='quiz')
+router.register(r'questions', views.QuestionViewSet, basename='question')
+router.register(r'choices', views.ChoiceViewSet, basename='choice')
+router.register(r'attempts', views.QuizAttemptViewSet, basename='quiz-attempt')
+router.register(r'progress', views.StudentProgressViewSet, basename='student-progress')
+router.register(r'scholarships', views.ScholarshipViewSet, basename='scholarship')
+router.register(r'colleges', views.CollegeViewSet, basename='college')
+
+urlpatterns = [
+    path('', include(router.urls)),
+]
