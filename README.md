@@ -8,7 +8,7 @@
 
 ## 📌 Project Overview
 
-The AI-Powered Student Learning Assistant and Personalized Career Education Advisor is an intelligent web platform developed for Smart India Hackathon (SIH25094).
+The AI-Powered Student Learning Assistant and Personalized Career Education Advisor is an intelligent web platform developed for Students.
 
 The system helps students make better academic and career decisions using Artificial Intelligence by providing personalized learning recommendations, career guidance, skill analysis, resume evaluation, scholarship information, and AI-powered chatbot support.
 
@@ -19,7 +19,6 @@ The system helps students make better academic and career decisions using Artifi
 - AI Chat Assistant
 - Personalized Learning Roadmap
 - Career Recommendation
-- Skill Gap Analysis
 - Resume Analyzer
 - Student Dashboard
 - Course Recommendation
